@@ -55,7 +55,7 @@ def SOURCE_INPUT_GUIDE(default_source_str: str) -> str:
     result: str = 'which source type? ' + \
         FontColors.GREEN + \
         default_source_str + \
-        ' (1-9 or noise)' + \
+        ' (<class_name> or noise)' + \
         FontColors.RESET + \
         ' : '
     return result
