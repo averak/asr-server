@@ -2,7 +2,7 @@
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-ASR (Automatic Speech Recognition) Server
+ASR (Automatic Speech Recognition) server tool kit.
 
 ## Requirement
 
@@ -22,9 +22,11 @@ $ pipenv install
 
 ### 1. Create Data
 
+You need to record the speech you want to recognize.
+Follow the instructions to create voice data.
+
 ```sh
 $ pipenv run record
-# You need to record the speech you want to recognize
 $ pipenv run build
 ```
 
@@ -47,4 +49,3 @@ When the demo-app starts, please speak a voice. The server will recognize it.
 ```sh
 $ pipenv run demo
 ```
-
